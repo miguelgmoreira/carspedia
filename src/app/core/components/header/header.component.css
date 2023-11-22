@@ -1,0 +1,32 @@
+.navegacao {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: center;
+  padding: 0 50px;
+  font-size: 1.2rem;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+.logo-span {
+  color: red;
+}
+
+img {
+  height: 100%;
+  height: 100%;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.nav-items {
+}

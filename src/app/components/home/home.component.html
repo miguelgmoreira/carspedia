@@ -1,0 +1,23 @@
+<ngb-carousel>
+  <ng-template ngbSlide *ngFor="let image of images">
+    <div class="wrapper c-item">
+      <img [src]="image.src" alt="Random first slide" class="c-img" />
+    </div>
+  </ng-template>
+</ngb-carousel>
+<div class="search-area">
+  <span class="search-area-title">Encontrar carro</span>
+
+  <div class="filter-options">
+    <p>Escolher filtro</p>
+    <i class="bi bi-filter"></i>
+  </div>
+  <div class="search">
+    <input
+      type="text"
+      placeholder="Digite a fabricante ou o modelo do carro"
+      class="search-input"
+    />
+    <button class="search-btn">Ver carros({{ resources.length }})</button>
+  </div>
+</div>

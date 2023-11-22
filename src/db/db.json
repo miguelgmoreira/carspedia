@@ -1,0 +1,17 @@
+{
+  "carros": [
+    {
+      "id": 1,
+      "tipo": "Esportivo",
+      "fabricante": "Ferrari",
+      "modelo": "LaFerrari",
+      "ano": 2012,
+      "preco": 1000000,
+      "especificacoesTecnicas": {
+        "motor": "v8",
+        "potência": "1000cv",
+        "consumo": "16"
+      }
+    }
+  ]
+}
